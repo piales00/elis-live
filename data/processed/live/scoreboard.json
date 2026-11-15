@@ -1,7 +1,7 @@
 {
   "unit": "fire cell-days",
   "ci_level": 0.9,
-  "updated_at_utc": "2026-11-15T04:36:36Z",
+  "updated_at_utc": "2026-11-15T18:36:36Z",
   "rows": [
     {
       "date": "2026-11-12",
@@ -81,7 +81,7 @@
       "prediction_sha256": "39931033c150826e1e2862912d206bef9cf53312cd0c49ac0d8159b741cf125b",
       "prediction_generated_at_utc": "2026-11-15T02:01:38Z",
       "aqua_input_sha256": "d6803f25281b3306d7c509bcbc2732b7e9b4d62d00496ec790bc89c957f82624",
-      "scored_at_utc": "2026-11-15T04:36:36Z"
+      "scored_at_utc": "2026-11-15T18:36:36Z"
     },
     {
       "date": "2026-11-13",
@@ -97,7 +97,7 @@
       "prediction_sha256": "39931033c150826e1e2862912d206bef9cf53312cd0c49ac0d8159b741cf125b",
       "prediction_generated_at_utc": "2026-11-15T02:01:38Z",
       "aqua_input_sha256": "d6803f25281b3306d7c509bcbc2732b7e9b4d62d00496ec790bc89c957f82624",
-      "scored_at_utc": "2026-11-15T04:36:36Z"
+      "scored_at_utc": "2026-11-15T18:36:36Z"
     },
     {
       "date": "2026-11-13",
@@ -113,7 +113,7 @@
       "prediction_sha256": "39931033c150826e1e2862912d206bef9cf53312cd0c49ac0d8159b741cf125b",
       "prediction_generated_at_utc": "2026-11-15T02:01:38Z",
       "aqua_input_sha256": "d6803f25281b3306d7c509bcbc2732b7e9b4d62d00496ec790bc89c957f82624",
-      "scored_at_utc": "2026-11-15T04:36:36Z"
+      "scored_at_utc": "2026-11-15T18:36:36Z"
     },
     {
       "date": "2026-11-13",
@@ -129,7 +129,7 @@
       "prediction_sha256": "39931033c150826e1e2862912d206bef9cf53312cd0c49ac0d8159b741cf125b",
       "prediction_generated_at_utc": "2026-11-15T02:01:38Z",
       "aqua_input_sha256": "d6803f25281b3306d7c509bcbc2732b7e9b4d62d00496ec790bc89c957f82624",
-      "scored_at_utc": "2026-11-15T04:36:36Z"
+      "scored_at_utc": "2026-11-15T18:36:36Z"
     }
   ],
   "summary": [
