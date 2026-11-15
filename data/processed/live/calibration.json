@@ -1,0 +1,90 @@
+{
+  "window": [
+    "2026-06-28",
+    "2026-11-01"
+  ],
+  "n_days": 120,
+  "sources": {
+    "snpp": {
+      "regions": [
+        {
+          "region": "peru",
+          "drift_factor": 1.0,
+          "sigma": 1.05,
+          "coverage_in_sample": 0.8833,
+          "coverage_second_half": null,
+          "mean_daily_observed": 28.48,
+          "mean_daily_emulated": 41.28
+        },
+        {
+          "region": "amazonia",
+          "drift_factor": 0.5538,
+          "sigma": 1.45,
+          "coverage_in_sample": 0.9083,
+          "coverage_second_half": 0.8,
+          "mean_daily_observed": 11.97,
+          "mean_daily_emulated": 21.61
+        },
+        {
+          "region": "sierra",
+          "drift_factor": 0.8179,
+          "sigma": 1.0,
+          "coverage_in_sample": 0.8917,
+          "coverage_second_half": 0.9,
+          "mean_daily_observed": 14.67,
+          "mean_daily_emulated": 17.93
+        },
+        {
+          "region": "costa",
+          "drift_factor": 1.0629,
+          "sigma": 0.55,
+          "coverage_in_sample": 0.9,
+          "coverage_second_half": 0.9333,
+          "mean_daily_observed": 1.85,
+          "mean_daily_emulated": 1.74
+        }
+      ]
+    },
+    "noaa20": {
+      "regions": [
+        {
+          "region": "peru",
+          "drift_factor": 1.0,
+          "sigma": 1.1,
+          "coverage_in_sample": 0.8917,
+          "coverage_second_half": null,
+          "mean_daily_observed": 28.48,
+          "mean_daily_emulated": 40.82
+        },
+        {
+          "region": "amazonia",
+          "drift_factor": 0.5651,
+          "sigma": 1.15,
+          "coverage_in_sample": 0.9,
+          "coverage_second_half": 0.95,
+          "mean_daily_observed": 11.97,
+          "mean_daily_emulated": 21.18
+        },
+        {
+          "region": "sierra",
+          "drift_factor": 0.82,
+          "sigma": 1.0,
+          "coverage_in_sample": 0.8917,
+          "coverage_second_half": 0.9,
+          "mean_daily_observed": 14.67,
+          "mean_daily_emulated": 17.89
+        },
+        {
+          "region": "costa",
+          "drift_factor": 1.0535,
+          "sigma": 0.7,
+          "coverage_in_sample": 0.9,
+          "coverage_second_half": 0.9167,
+          "mean_daily_observed": 1.85,
+          "mean_daily_emulated": 1.76
+        }
+      ]
+    }
+  },
+  "method": "Daily Aqua cell-days on jointly available days of the window. drift_factor = observed / emulated sum per region (national: 1, because its point prediction is the sum of the adjusted regional ones). sigma = log-scale spread of a Poisson-lognormal predictive distribution chosen from LIVE_SIGMA_GRID so that the 90% range covers the window. coverage_second_half refits both on the first half and checks the second half."
+}

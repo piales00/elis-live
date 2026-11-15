@@ -1,0 +1,275 @@
+{
+  "rule": "Static-source cells from scripts/cells.py (see data/interim/static_mask_validation.json); applied to NRT detections, which lack the type field.",
+  "cells": [
+    {
+      "instrument": "modis",
+      "cell_y": -175,
+      "cell_x": -714
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -164,
+      "cell_x": -715
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -158,
+      "cell_x": -719
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -141,
+      "cell_x": -758
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -140,
+      "cell_x": -758
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -139,
+      "cell_x": -765
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -137,
+      "cell_x": -762
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -131,
+      "cell_x": -764
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -129,
+      "cell_x": -727
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -122,
+      "cell_x": -773
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -122,
+      "cell_x": -772
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -121,
+      "cell_x": -770
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -120,
+      "cell_x": -771
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -112,
+      "cell_x": -754
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -107,
+      "cell_x": -777
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -106,
+      "cell_x": -755
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -106,
+      "cell_x": -754
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -96,
+      "cell_x": -776
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -92,
+      "cell_x": -786
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -82,
+      "cell_x": -791
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -81,
+      "cell_x": -790
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -72,
+      "cell_x": -785
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -66,
+      "cell_x": -787
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -65,
+      "cell_x": -764
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -61,
+      "cell_x": -772
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -61,
+      "cell_x": -770
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -60,
+      "cell_x": -774
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -58,
+      "cell_x": -789
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -57,
+      "cell_x": -786
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -51,
+      "cell_x": -802
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -50,
+      "cell_x": -804
+    },
+    {
+      "instrument": "modis",
+      "cell_y": -38,
+      "cell_x": -733
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -175,
+      "cell_x": -714
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -163,
+      "cell_x": -717
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -162,
+      "cell_x": -695
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -158,
+      "cell_x": -719
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -156,
+      "cell_x": -750
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -156,
+      "cell_x": -749
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -155,
+      "cell_x": -700
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -155,
+      "cell_x": -699
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -153,
+      "cell_x": -700
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -152,
+      "cell_x": -700
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -138,
+      "cell_x": -762
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -133,
+      "cell_x": -764
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -133,
+      "cell_x": -763
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -122,
+      "cell_x": -770
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -122,
+      "cell_x": -767
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -119,
+      "cell_x": -730
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -114,
+      "cell_x": -758
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -111,
+      "cell_x": -761
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -98,
+      "cell_x": -783
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -91,
+      "cell_x": -787
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -46,
+      "cell_x": -813
+    },
+    {
+      "instrument": "viirs",
+      "cell_y": -35,
+      "cell_x": -805
+    }
+  ]
+}
