@@ -115,14 +115,20 @@ def load_cell_regions(live_dir):
 
 
 def assign_unseen(cells):
-    from regions import assign_regions
+    from shapely.geometry import box, shape
+    from shapely.strtree import STRtree
 
-    with connect() as con:
-        con.register("unseen_cells", cells[["cell_y", "cell_x"]].drop_duplicates())
-        con.execute("CREATE TEMP TABLE unseen AS SELECT cell_y::INTEGER AS cell_y, cell_x::INTEGER AS cell_x FROM unseen_cells")
-        assign_regions(con, "unseen")
-        rows = con.execute("SELECT cell_y, cell_x, region FROM unseen").fetchall()
-    return {(y, x): region for y, x, region in rows}
+    features = json.loads((config.PROCESSED_DIR / "regions.geojson").read_text())["features"]
+    departments = [(f["properties"]["id"], f["properties"]["macroregion"], shape(f["geometry"]))
+                   for f in features if f["properties"].get("macroregion") in config.REGIONS]
+    tree = STRtree([polygon for _, _, polygon in departments])
+    result = {}
+    for y, x in cells[["cell_y", "cell_x"]].drop_duplicates().itertuples(index=False):
+        cell = box(x * config.GRID_DEG, y * config.GRID_DEG, (x + 1) * config.GRID_DEG, (y + 1) * config.GRID_DEG)
+        overlaps = [(area, dep_id, region) for dep_id, region, polygon in (departments[int(i)] for i in tree.query(cell))
+                    if (area := polygon.intersection(cell).area) > 0]
+        result[(int(y), int(x))] = max(overlaps, key=lambda item: (item[0], item[1]))[2] if overlaps else None
+    return result
 
 
 def build_cells(raw, source, day, live_dir):
