@@ -1,7 +1,7 @@
 {
   "unit": "fire cell-days",
   "ci_level": 0.9,
-  "updated_at_utc": "2026-11-19T20:08:34Z",
+  "updated_at_utc": "2026-11-22T19:11:49Z",
   "rows": [
     {
       "date": "2026-11-12",
@@ -386,39 +386,103 @@
       "prediction_generated_at_utc": "2026-11-18T20:08:30Z",
       "aqua_input_sha256": "3da9a432fc9b63e76f5759dfad6402088a3694ffa8fbc0861c80d188b599fdf1",
       "scored_at_utc": "2026-11-19T20:08:34Z"
+    },
+    {
+      "date": "2026-11-20",
+      "region": "peru",
+      "viirs_source": "noaa20",
+      "predicted": 1.1,
+      "low": 0.0,
+      "high": 4.0,
+      "observed": 22,
+      "inside": false,
+      "error": 20.9,
+      "status": "scored",
+      "prediction_sha256": "9ec0c5a6933b951ccbb8dcab86e3b3e6bbdd04f5e96598c84f873370e19db4ba",
+      "prediction_generated_at_utc": "2026-11-21T17:06:39Z",
+      "aqua_input_sha256": "8161a842a2acb5d32d8fb3855117f351b4acfcc4730b24077c69aa63fe9abab8",
+      "scored_at_utc": "2026-11-22T19:11:49Z"
+    },
+    {
+      "date": "2026-11-20",
+      "region": "amazonia",
+      "viirs_source": "noaa20",
+      "predicted": 0.32,
+      "low": 0.0,
+      "high": 2.0,
+      "observed": 9,
+      "inside": false,
+      "error": 8.68,
+      "status": "scored",
+      "prediction_sha256": "9ec0c5a6933b951ccbb8dcab86e3b3e6bbdd04f5e96598c84f873370e19db4ba",
+      "prediction_generated_at_utc": "2026-11-21T17:06:39Z",
+      "aqua_input_sha256": "8161a842a2acb5d32d8fb3855117f351b4acfcc4730b24077c69aa63fe9abab8",
+      "scored_at_utc": "2026-11-22T19:11:49Z"
+    },
+    {
+      "date": "2026-11-20",
+      "region": "sierra",
+      "viirs_source": "noaa20",
+      "predicted": 0.78,
+      "low": 0.0,
+      "high": 3.0,
+      "observed": 13,
+      "inside": false,
+      "error": 12.22,
+      "status": "scored",
+      "prediction_sha256": "9ec0c5a6933b951ccbb8dcab86e3b3e6bbdd04f5e96598c84f873370e19db4ba",
+      "prediction_generated_at_utc": "2026-11-21T17:06:39Z",
+      "aqua_input_sha256": "8161a842a2acb5d32d8fb3855117f351b4acfcc4730b24077c69aa63fe9abab8",
+      "scored_at_utc": "2026-11-22T19:11:49Z"
+    },
+    {
+      "date": "2026-11-20",
+      "region": "costa",
+      "viirs_source": "noaa20",
+      "predicted": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "observed": 0,
+      "inside": true,
+      "error": 0.0,
+      "status": "scored",
+      "prediction_sha256": "9ec0c5a6933b951ccbb8dcab86e3b3e6bbdd04f5e96598c84f873370e19db4ba",
+      "prediction_generated_at_utc": "2026-11-21T17:06:39Z",
+      "aqua_input_sha256": "8161a842a2acb5d32d8fb3855117f351b4acfcc4730b24077c69aa63fe9abab8",
+      "scored_at_utc": "2026-11-22T19:11:49Z"
     }
   ],
   "summary": [
     {
       "region": "peru",
-      "n_days": 5,
-      "coverage": 0.8,
-      "mean_error": 10.95,
-      "mean_abs_error": 15.23,
-      "mean_abs_error_pct": 66.8
+      "n_days": 6,
+      "coverage": 0.6667,
+      "mean_error": 12.61,
+      "mean_abs_error": 16.18,
+      "mean_abs_error_pct": 71.36
     },
     {
       "region": "amazonia",
-      "n_days": 5,
-      "coverage": 0.6,
-      "mean_error": 6.96,
+      "n_days": 6,
+      "coverage": 0.5,
+      "mean_error": 7.25,
       "mean_abs_error": 8.68,
-      "mean_abs_error_pct": 61.97
+      "mean_abs_error_pct": 65.9
     },
     {
       "region": "sierra",
-      "n_days": 5,
-      "coverage": 0.8,
-      "mean_error": 4.37,
-      "mean_abs_error": 6.66,
-      "mean_abs_error_pct": 79.29
+      "n_days": 6,
+      "coverage": 0.6667,
+      "mean_error": 5.68,
+      "mean_abs_error": 7.59,
+      "mean_abs_error_pct": 82.76
     },
     {
       "region": "costa",
-      "n_days": 5,
+      "n_days": 6,
       "coverage": 1.0,
-      "mean_error": -0.38,
-      "mean_abs_error": 0.92,
+      "mean_error": -0.32,
+      "mean_abs_error": 0.76,
       "mean_abs_error_pct": 229.0
     }
   ]
