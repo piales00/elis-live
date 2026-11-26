@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-25",
+  "generated_at_utc": "2026-11-26T21:04:53Z",
+  "unit": "fire cell-days",
+  "ci_level": 0.9,
+  "viirs_source": "noaa20",
+  "firms_source": "VIIRS_NOAA20_NRT",
+  "input_sha256": "abf5d6ce019618c0d3ec1ff5175559f7e57ff7acddcb422e703a186c8a6d9aac",
+  "viirs_detections": 77,
+  "model_version": "emulator-600dd4e106fb",
+  "calibration_sha256": "985950481fd1dcfeecc4dd29b6d89a377bc97731a48bf26c3ff88424a26b8d62",
+  "regions": [
+    {
+      "region": "peru",
+      "viirs_cell_days": 37,
+      "aqua_emulated": 8.07,
+      "aqua_predicted": 5.39,
+      "aqua_low": 0.0,
+      "aqua_high": 18.0
+    },
+    {
+      "region": "amazonia",
+      "viirs_cell_days": 20,
+      "aqua_emulated": 4.98,
+      "aqua_predicted": 2.81,
+      "aqua_low": 0.0,
+      "aqua_high": 10.0
+    },
+    {
+      "region": "sierra",
+      "viirs_cell_days": 15,
+      "aqua_emulated": 2.91,
+      "aqua_predicted": 2.38,
+      "aqua_low": 0.0,
+      "aqua_high": 8.0
+    },
+    {
+      "region": "costa",
+      "viirs_cell_days": 2,
+      "aqua_emulated": 0.18,
+      "aqua_predicted": 0.19,
+      "aqua_low": 0.0,
+      "aqua_high": 1.0
+    }
+  ],
+  "method": "Emulator probability that Aqua sees each VIIRS cell-day, summed, plus the Aqua-only residual rate; multiplied by the recent drift factor; range from a Poisson-lognormal predictive distribution whose spread was fitted on the calibration window.",
+  "sha256": "a065fe9bbdb3a9bed3de77f1d71023d7544557a06e54b05ba17aa6e4e4fba67a"
+}
